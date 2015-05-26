@@ -1,0 +1,6 @@
+DirectoryIndex index.php
+RewriteEngine on
+#Categories
+RewriteRule   ^([0-9a-zA-Z-]+/)*[0-9a-zA-Z-]+_cid([0-9]+)\.html$  /test/category.php?cid=$2 [QSA,L]
+RewriteRule   ^([0-9a-zA-Z-]+/)*[0-9a-zA-Z-]+_lid([0-9]+)\.html$  /test/listing.php?id=$2 [QSA,L]
+RewriteRule   ^([0-9a-zA-Z-]+/)*post.html$  /test/post.php [QSA,L]

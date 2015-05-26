@@ -1,0 +1,117 @@
+body{
+	background-color: #FFFFFF;
+	text-align: left;
+	margin: 0px 0px 25px 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+h2{
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	color: #333333;
+}
+
+h4{
+	font-size: 14px;
+	margin: 10px 0px 10px 0px;
+	color: #333333;
+	padding: 2px 4px;
+	background-color: #F5F5F5;
+	clear: both;
+}
+
+h4 a:link,
+h4 a:visited{
+	color: #333333;
+}
+
+h4 a:hover{
+	color: #004080;
+	text-decoration: none;
+}
+
+h5{
+	margin: 5px 0px 5px 0px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.input, select, textarea{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #F9F9F9;
+	border: 1px solid #7F9DB9;
+	padding: 2px;
+	color: #333333;
+	margin:0px; vertical-align:middle; 
+}
+
+select {
+	padding:1px;
+	margin-top:2px;
+}
+
+/* Button Images */
+.Transparent{
+	border: 0px;
+	padding: 0px;
+	background-color: transparent;
+}
+img{
+	border: 0px;
+}
+P{
+	margin-top:8px; margin-bottom:8px;
+}
+p.First{
+	margin-top: 0px;
+}
+
+p.Last{
+	margin-bottom: 0px;
+}
+
+p.Only{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+a, a:visited{	
+	color: #004080;
+	text-decoration:underline;
+}
+
+a:hover{
+	color: #d4012a;
+	text-decoration:underline;
+}
+
+span.Red{
+	color: #FF0000;
+}
+
+form{
+	margin: 0px;
+	padding: 0px;
+}
+
+small{
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.err {
+	color:red; font-weight:bold;
+}

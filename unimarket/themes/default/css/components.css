@@ -1,0 +1,392 @@
+/* Common component style */
+.Panel{
+	margin-bottom: 10px;
+}
+
+.Panel .Header{
+	background-image: url(../img/layout/panel_top.jpg); 
+	background-position:bottom right;
+	color: #FFFFFF;
+	font-weight: bold;
+	height:22px;
+	font-size: 12px;
+	padding: 4px 0px 0px 12px;
+	text-transform:capitalize;
+}
+
+.Panel .Content{
+	background-image: url(../img/layout/panel_middle.gif);
+	padding: 3px 10px 0px 10px;
+	font-size: 12px;
+	
+}
+
+
+
+#Middle .Panel .Content{
+	background-image: url(../img/layout/panel_middle_wide.gif);
+}
+
+.Panel .Bottom{
+	clear: both;
+	background-image:url(../img/layout/panel_bottom_bg.gif);
+	margin:0px;
+	padding:0px;
+	height:16px;
+}
+
+.comPaginator{
+	display:inline;
+}
+
+.Panel .Categories{
+	height:auto;
+	width:100%;
+	
+}
+.Panel .Categories  ul{
+	list-style-type: none;
+	padding:2px;
+	margin:0px;
+}
+
+
+.Panel .Categories ul li{
+	font-size: 11px;
+	padding: 3px 5px 0px 15px;
+	
+}
+.Panel .Categories ul li a{
+	text-decoration:none;
+}
+.Panel .Categories ul li a:hover{
+	text-decoration:underline;
+}
+
+.Panel .Categories ul li.MainCat{
+	font-size:12px;clear:both;
+
+	padding:5px 0px 0px 5px;
+	font-weight:bold;
+	color:#333333;
+	
+}
+.Panel .Categories ul li.MainCat a{
+	text-decoration:none;
+	color:#000000;
+}
+
+
+
+
+/* For List of items in a column */
+.Panel .Navigation{
+	padding: 5px 10px 0px 10px;
+}
+
+.Panel .Navigation a:Link,
+.Panel .Navigation a:Visited{
+	padding: 3px 5px 3px 17px;
+	text-decoration: none;
+	display: block;
+}
+
+.Panel .Navigation a:Hover{
+	text-decoration: none;
+	background-color: #F7FBFF;
+}
+
+.Panel .Navigation ul{
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 0px;	
+}
+.Panel .Navigation ul li{
+	text-align: left;
+	font-size: 11px;
+	border-bottom: 1px solid #DADADA;
+}
+.Panel .Navigation li.Selected{
+	font-weight: bold;
+	padding: 3px 5px;
+}
+
+.Panel .Navigation ul li.Highlight{
+	padding: 3px 5px;
+	font-weight: bold;
+}
+.Panel .Navigation ul li a:Link,
+.Panel .Navigation ul li a:Visited{
+	padding: 3px 5px;
+}
+
+.Panel .Navigation .Parent{
+	font-weight: bold;
+	font-size: 11px;
+	border-bottom: 1px solid #DADADA;
+	padding: 3px 5px;
+	_height: 1px;
+}
+
+.Panel .Navigation .Parent a:Link,
+.Panel .Navigation .Parent a:Visited{
+	padding: 0px;
+}
+
+.Panel .Navigation .Parent div.Cross{	
+	padding: 0px 4px 1px 0px;
+	_padding: 0px 1px 1px 0px;
+	float: left;
+}
+
+
+.Panel .Navigation .Children{
+	border-bottom: 1px solid #DADADA;
+}
+
+.Panel .Navigation .Children .Child{
+	border-bottom: 0px;
+	font-size: 11px;
+}
+
+.Panel .Navigation .Children .Child a:Visited{
+	padding: 3px 5px 3px 17px;
+}
+
+.Panel .Navigation .Children .Child a:Hover{
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+
+/* Horizontal Line */
+.Divide{
+	clear: both;
+	line-height: 1px;
+	margin:5px 1px 5px 1px;
+	padding:0px;
+	border-bottom:1px solid #cccccc;
+
+}
+.ClearDivide{
+	clear: both;
+	line-height: 1px;
+	margin:5px 1px 5px 1px;
+	padding:0px;
+	 
+}
+/* Link Row at page top and page bottom */
+.LinksRow{
+	margin:0px;
+	padding: 0px;
+}
+
+.LinksRow ul{
+	margin: 0px;	
+}
+
+.LinksRow ul li{
+	display: inline;
+	margin: 0px;	
+	margin-left: 15px;
+	font-size: 11px;	
+}
+
+
+
+
+
+
+/* pnl_ad_registernow */
+#pnl_ad_registernow{ 
+	position:relative; top:-15px; margin-bottom:0px; 
+}
+
+#pnl_ad_registernow .Header{
+	background-image: url(../img/layout/panel_top_register.gif);
+	height:30px;
+}
+ 
+ 
+/* pnl_search */
+#pnl_search .Content .Button{
+	margin: 10px 0px 0px 0px;
+}
+#pnl_search .Content .Row{
+	margin:0px;
+	padding:0px;
+	padding-bottom: 5px;
+}
+#pnl_search form{
+	padding:0px; margin:0px;
+}
+
+/* account forms */
+#account{
+	background-image: url(../img/layout/bg_m_middle.jpg);
+	clear: both;
+	width: 620px;
+}
+#account .Path {	
+	float:left;
+	font-size: 11px;
+	color: #333333;
+	margin:0px; padding:0px; margin-left:15px;
+}
+#account .Path a{	
+	text-decoration:none;
+}
+#account .Extra{
+	float: right;
+	width: 155px;
+	padding-right: 15px;
+	margin-bottom: 5px;
+	_margin-top: -4px;
+}
+
+#account .Extra img{
+	float: right;
+	margin-left: 10px;	
+}
+#account .Search{
+	padding-left:15px;
+}
+
+#account .Title{
+ 	font-weight:bold;
+	font-size:12px;
+}
+#account .Explain{
+ 	font-weight:200;
+	font-size:11px;
+	color:#999999;
+}
+#account #keyword{
+ 	width:200px;
+}
+#account .Field{
+	margin-bottom:10px;
+}
+
+
+/* listing details */
+#pm_listing{
+	background-image: url(../img/layout/bg_pm_middle.jpg);
+	clear: both;
+	width: 780px;
+}
+#pm_listing .Path {	
+	float:left;
+	font-size: 11px;
+	color: #333333;
+	margin:0px; padding:0px; margin-left:15px;
+}
+#pm_listing .Path a{	
+	text-decoration:none;
+}
+#pm_listing .Extra{
+	float: right;
+	width: 155px;
+	padding-right: 15px;
+	margin-bottom: 5px;
+	_margin-top: -4px;
+}
+
+#pm_listing .Extra img{
+	float: right;
+	margin-left: 10px;	
+}
+.pm_listing_panel{
+	background-image: url(../img/layout/bg_pm_middle.jpg); margin:0px; padding:0px;  float:none; clear:both;
+}
+.pm_listing_panel_highligh{
+	 background-image: url(../img/layout/bg_pm_highlight_middle.jpg); margin:0px; float:none; clear:both; 
+}
+
+/* m_listing_list */
+#m_listing_list{
+	background-image: url(../img/layout/bg_m_middle.jpg);
+	clear: both;
+	width: 620px;
+}
+#m_listing_list .CatHeader{
+	float:left; padding-left:15px; font-size:18px; color:#666666;
+}
+
+#m_listing_list .TopPager{
+	float:right; padding:0 15px 0 0 ; text-align:right; 
+}
+
+#m_listing_list .Header table,
+#m_listing_list .Header tr,
+#m_listing_list .Header td{
+	padding:0px; margin:0px;  
+}
+#m_listing_list .Header table{
+	width:100%;
+}
+ 
+#m_listing_list .Header a{
+	color:#FFFFFF;
+}
+#m_listing_list .Header img{ vertical-align:middle;
+}
+#m_listing_list .Extra{
+	float: right;
+	width:  255px;
+	text-align:right;
+	padding-right: 15px;
+	margin-bottom: 5px;
+	_margin-top: -4px;
+}
+#m_listing_list .Extra a{
+	text-decoration:none;
+}
+ 
+#m_listing_list .Search{
+	padding-left:15px;
+}
+
+#m_listing_list #keyword{
+ 	width:100px;
+}
+
+#m_listing_list #CatRSS{ 
+	text-align:right;
+	padding: 0 15px 0 0;
+}
+
+/*Paginator Style*/
+
+.Pagination {
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+	font-size: 0.9em;
+	clear: both;
+	background-color: #f2f2f2;
+	border-top: 1px solid #fff;
+	}
+.Pagination a {
+	padding: 5px;
+	color: #333;
+	text-decoration: none;
+	border-right: 1px solid #f2f4f7;
+	}
+.Pagination a:hover {
+	text-decoration: none;
+	background-color: #e5e8ee;
+	}
+.Pagination a.squareBtn {
+	padding: 5px;
+	background-color: #d5dae4;
+	}
+.Pagination a.squareBtn:hover {
+	padding: 5px;
+	color: #fff;
+	background-color: #c6cfdf;
+	}
+.Pagination a.selected {
+	color: #2c70d8;
+	
+	}	
